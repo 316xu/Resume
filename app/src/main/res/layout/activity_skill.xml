@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/process"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="C"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/java"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="JAVA"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:src="@mipmap/ink_point1"
+
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/android"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/frame"
+                android:onClick="onSkillClicK"
+                android:padding="12dp"
+                android:text="Android"
+                android:textAlignment="center"
+                android:visibility="invisible"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@android:color/black"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/kotlin"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/frame"
+                android:onClick="onSkillClicK"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingTop="12dp"
+                android:text="Kotlin"
+                android:visibility="invisible"
+                />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@android:color/black"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/react_native"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:background="@drawable/frame"
+                android:onClick="onSkillClicK"
+                android:paddingLeft="8dp"
+                android:paddingRight="0dp"
+                android:paddingTop="12dp"
+                android:text="react-native"
+                android:visibility="invisible"
+                />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@android:color/black"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/balabala"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/frame"
+                android:onClick="onSkillClicK"
+                android:paddingTop="12dp"
+                android:text="..."
+                android:textAlignment="center"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/php"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="PHP"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/nodejs"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="NodeJs"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/cocos"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="Cocos"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:src="@mipmap/ink_point1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/frame"
+            android:onClick="onSkillClicK"
+            android:padding="12dp"
+            android:text="未完待续"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/content"
+        android:layout_width="200dp"
+
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/frame"
+        android:onClick="onSkillClicK"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="主要擅长java和android，有近2年的经验了，可以全栈工作\n热爱学习新的技术，像前端的知识，react-native，响应式编程，unity3d之类的都尝试过\n原型图，PS之类的东西也耍过"/>
+</RelativeLayout>

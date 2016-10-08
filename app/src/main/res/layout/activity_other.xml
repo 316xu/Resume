@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自我评价:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="擅长学习\n对于新的知识有着强烈的兴趣, 并且会主动学习\n工作能力强, 在实习的过程中工作能力也得到了mentor的认可\n擅长android开发，有近2年经验\n喜欢开发UI，喜欢用代码写出来一些能直观的看到的东西"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导师评价:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="许矶法同学在项目中担任了主程的工作，并且成绩十分突出。他不仅能很好的完成自己的的工作，也会主动帮助其他组员解决技术问题。他能够从不了解到带领一个项目开发，足以说明他的优秀"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="点击查看"
+            android:onClick="onEvaluationClick"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学生工作:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+    <TextView
+        android:text="大学期间参加过院学生会，院主持人队，与2014/9 - 2015/6 担任院社会实践部副部长及主持人队副队长\n参与组织蓝丝带（义务载人活动），马路天使（维护校内外交通秩序）等，并参与组织中华骨髓库在校推广活动\n主持过迎新晚会等一些院级活动"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+</LinearLayout>
